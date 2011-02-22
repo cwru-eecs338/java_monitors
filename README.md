@@ -19,4 +19,4 @@ Lessons:
 
 * Using monitors and the <code>synchronized</code> keyword in Java.
 * Observe an implementation for a solution to the dining philosophers problem.
-* Basic multi--threading in Java (optional)
+* Basic multi&ndash;threading in Java (optional)
