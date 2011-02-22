@@ -12,6 +12,8 @@ public class PhilosopherThread extends Thread {
 
     @Override
     public void run() {
+        // This code is executed when
+        // the thread is started...
         while(!isInterrupted()) {
             try {
                 think();
@@ -26,7 +28,8 @@ public class PhilosopherThread extends Thread {
 
     private void think()
     throws InterruptedException {
-        // Think for some time
+        // Think for some time...
+        // "What doth life?"
         random_sleep(500);
     }
 
@@ -38,7 +41,6 @@ public class PhilosopherThread extends Thread {
 
     private void random_sleep(int max)
     throws InterruptedException {
-        // Eat for some time
         long milliseconds = (long)(max*Math.random());
         Thread.sleep(milliseconds);
     }
