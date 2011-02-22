@@ -5,11 +5,7 @@ Getting the files:
 ------------------
 
 On the lab computers, use the command:
-<pre>
-<code>
-git clone git://github.com/cwru-eecs338/java_monitors.git
-</code>
-</pre>
+<pre><code>git clone git://github.com/cwru-eecs338/java_monitors.git</code></pre>
 
 Running the code:
 -----------------
@@ -21,6 +17,6 @@ Running the code:
 Lessons:
 --------
 
-* Using monitors and the <code>synchronized</code> statement in Java.
+* Using monitors and the <code>synchronized</code> keyword in Java.
 * Observe an implementation for a solution to the dining philosophers problem.
 * Basic multi--threading in Java (optional)
